@@ -1,3 +1,4 @@
+   <base href="/public">
    <!-- plugins:css -->
    <link rel="stylesheet" href="admin-template/assets/vendors/mdi/css/materialdesignicons.min.css">
    <link rel="stylesheet" href="admin-template/assets/vendors/css/vendor.bundle.base.css">
@@ -14,3 +15,15 @@
    <link rel="stylesheet" href="admin-template/assets/css/style.css">
    <!-- End layout styles -->
    <link rel="shortcut icon" href="admin-template/assets/images/favicon.png" />
+   <style>
+      input.form-control{
+         color: #e1e1e1!important;
+
+      }
+      .table-responsive .table td,.table-responsive .table th{
+         white-space: normal!important; /* Ngăn văn bản xuống dòng */
+         overflow: hidden!important; /* Ẩn phần văn bản bị tràn ra khỏi khung chứa */
+         text-overflow: ellipsis!important; /* Hiển thị dấu "..." khi văn bản bị cắt ngắn */
+         color: #cfcfcf
+      }
+   </style>

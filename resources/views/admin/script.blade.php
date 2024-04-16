@@ -16,3 +16,8 @@
 <!-- endinject -->
 <!-- Custom js for this page -->
 <script src="admin-template/assets/js/dashboard.js"></script>
+
+<script>
+  
+
+</script>
