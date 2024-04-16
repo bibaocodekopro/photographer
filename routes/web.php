@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [homeController::class ,'index']);
 
+Route::get('admin', [adminController::class ,'index']);
 Route::get('admin/dashboard', [adminController::class ,'index']);
 
 Route::get('admin/view_products', [adminController::class ,'view_product']);

@@ -16,8 +16,20 @@
 <!-- endinject -->
 <!-- Custom js for this page -->
 <script src="admin-template/assets/js/dashboard.js"></script>
-
+{{-- date picker --}}
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
-  
-
+    $(function() {
+        $("#datepicker").datepicker();
+    });
+</script>
+{{-- date picker --}}
+<script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+    const files = event.target.files;
+    for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+    }
+});
 </script>
